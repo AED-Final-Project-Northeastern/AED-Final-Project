@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * @author Kabir
  */
 public class WaitlistWorkRequest extends WorkRequest{
-    
+    //Patients object:
     Patient patient;
     private ArrayList<String> organList=new ArrayList<>();
 
