@@ -18,6 +18,8 @@ public class ProcurementWorkRequest extends WorkRequest{
     String team;
     private ArrayList<String> organList=new ArrayList<>();
 
+
+    //Getters and Setters:
     public ArrayList<String> getOrganList() {
         return organList;
     }
