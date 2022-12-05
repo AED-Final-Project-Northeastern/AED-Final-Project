@@ -13,6 +13,7 @@ import java.util.ArrayList;
  * @author Kabir
  */
 public class ProcurementWorkRequest extends WorkRequest{
+    //Patient object:
     Patient patient;
     String team;
     private ArrayList<String> organList=new ArrayList<>();
