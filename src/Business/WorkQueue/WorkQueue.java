@@ -15,10 +15,12 @@ public class WorkQueue {
      
     private ArrayList<WorkRequest> workRequestList;
 
+    //WorkQueue Constructor:
     public WorkQueue() {
         workRequestList = new ArrayList();
     }
 
+    //ArrayList for getWorkRequestList:
     public ArrayList<WorkRequest> getWorkRequestList() {
         return workRequestList;
     }
