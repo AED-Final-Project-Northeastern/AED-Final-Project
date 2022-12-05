@@ -40,31 +40,36 @@
                   <Component id="jScrollPane1" min="-2" pref="535" max="-2" attributes="0"/>
                   <Component id="jlAdminDetails" min="-2" pref="204" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jlNetwork" min="-2" pref="140" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="comboNetwork" min="-2" pref="240" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jlNetwork" min="-2" pref="140" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="comboNetwork" min="-2" pref="240" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jlPassword" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jlUsername" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jlEnterprise" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jlName" min="-2" pref="134" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtName" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtPassword" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtUserName" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="comboEnterprise" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="jlPassword" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jlUsername" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jlEnterprise" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jlName" min="-2" pref="134" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="txtName" alignment="0" max="32767" attributes="0"/>
-                          <Component id="txtPassword" alignment="0" max="32767" attributes="0"/>
-                          <Component id="txtUserName" alignment="0" max="32767" attributes="0"/>
-                          <Component id="comboEnterprise" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
                       <Component id="btnAdd" min="-2" pref="90" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="btnUpdate" min="-2" pref="109" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="btnSave" min="-2" pref="82" max="-2" attributes="0"/>
@@ -72,7 +77,7 @@
                       <Component id="btnDelete1" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="77" max="32767" attributes="0"/>
+              <EmptySpace pref="107" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -113,10 +118,10 @@
                           <Component id="jlName" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="txtName" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btnUpdate" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                           <Component id="btnAdd" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="btnUpdate" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                           <Component id="btnSave" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                           <Component id="btnDelete1" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
