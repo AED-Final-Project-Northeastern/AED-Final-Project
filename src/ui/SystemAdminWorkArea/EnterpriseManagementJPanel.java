@@ -274,7 +274,7 @@ public class EnterpriseManagementJPanel extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
-
+ //save details after validating the inputs
         int counter = 0;
         String name = txtEnterpiseName.getText();
         String city = comboNetwork.getSelectedItem().toString();
