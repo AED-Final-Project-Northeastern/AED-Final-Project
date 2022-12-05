@@ -371,7 +371,7 @@ public class NetworkManagementJPanel extends javax.swing.JPanel {
         }
         DefaultTableModel model = (DefaultTableModel) tblNetworkDetails.getModel();
         Network sel  = (Network)model.getValueAt(selectedRowIndex, 0);
-        system.DeleteNetwork(sel);
+        system.DeleteNetwork(sel);//deletes network from system
 
         JOptionPane.showMessageDialog(this, "Network Details Deleted");
         intiNetworkTable();
