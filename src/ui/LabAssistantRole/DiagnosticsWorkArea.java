@@ -210,7 +210,7 @@ public class DiagnosticsWorkArea extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(null,"Please select the item from the list");
             return;
         }
-
+ //save after validation
         DiagnosticsWorkRequest request = (DiagnosticsWorkRequest) tableWorkReq.getValueAt(selectedRow, 0);
         if(request.getStatus().equalsIgnoreCase("completed")){
             JOptionPane.showMessageDialog(null,"The request was processed ");
