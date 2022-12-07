@@ -36,7 +36,7 @@ public class EcoSystem extends Organization {
         }
         return business;
     }
-    
+    //constructor to set variables
      public Donor AddDonor(String name, String lastName, String middleName, String state, String zipCode, String SSN, int age, String sex, String bloodGroup, String contactNum, String address, String sign,
                 String emailAdd, String emergencyPOC, String emergencyPOC_Num, boolean isOrganAvaiNow,List<String >organs){
         
