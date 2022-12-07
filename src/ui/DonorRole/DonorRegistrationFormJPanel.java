@@ -150,7 +150,6 @@ public class DonorRegistrationFormJPanel extends javax.swing.JPanel {
         txtZipCode = new javax.swing.JTextField();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-        btnEmail = new javax.swing.JButton();
         jLabel21 = new javax.swing.JLabel();
         txtOTP = new javax.swing.JTextField();
         btnOTP = new javax.swing.JButton();
@@ -430,14 +429,6 @@ public class DonorRegistrationFormJPanel extends javax.swing.JPanel {
         jLabel20.setText(" Every registration counts");
         add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 340, 220, 30));
 
-        btnEmail.setText("Receive Email Confirmation");
-        btnEmail.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnEmailActionPerformed(evt);
-            }
-        });
-        add(btnEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 460, -1, -1));
-
         jLabel21.setText("Enter OTP");
         add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 280, -1, -1));
 
@@ -704,52 +695,6 @@ int f = 0;
         // TODO add your handling code here:
     }//GEN-LAST:event_txtZipCodeActionPerformed
 
-    private void btnEmailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEmailActionPerformed
-        // TODO add your handling code here:
-        
-//        from="worktest835@gmail.com";
-//        to=emailAdd;
-//        host="localhost";
-//        sub="Donor Registration Confirmation";
-//        content="Hi I'm working";
-//        
-//         Properties p=new Properties();
-//         p.put("mail.smtp.auth","true");
-//         p.put("mail.smtp.starttls.enable","true");
-//         p.put("mail.smtp.host","smtp.gmail.com"); 
-//        p.put("mail.smtp.port","587");
-//        Session s=Session.getDefaultInstance(p,new javax.mail.Authenticator()
-//        {
-//            protected PasswordAuthentication getPasswordAuthentication()
-//            {
-//                
-//            
-//              return new PasswordAuthentication("worktest835@gmail.com","work@123");
-//            }
-//            
-//        });
-//        try
-//        {
-//            MimeMessage m=new MimeMessage(s);
-//            m.setFrom(from);
-//            m.addRecipient(Message.RecipientType.TO,new InternetAddress(to));
-//            m.setSubject(sub);
-//            m.setText(content);
-//            Transport.send(m);
-//                    JOptionPane.showMessageDialog(null, "Confirmation mail sent");
-//
-//            
-//        }
-//        catch(Exception e)
-//        {
-//            e.printStackTrace();
-//        }
-   
-        
-        
-        
-    }//GEN-LAST:event_btnEmailActionPerformed
-
     private void btnOTPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOTPActionPerformed
         // TODO add your handling code here:
         
@@ -815,7 +760,6 @@ int f = 0;
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JComboBox bloodGroupJComboBox1;
     private javax.swing.JButton btnBack;
-    private javax.swing.JButton btnEmail;
     private javax.swing.JButton btnOTP;
     private javax.swing.JRadioButton btnRadioOrganAvailableNo;
     private javax.swing.JRadioButton btnRadioOrganAvailableYes;
