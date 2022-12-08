@@ -10,7 +10,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author  bhavana
+ * @author  shiva
  */
 public class HospitalAdminJPanel extends javax.swing.JPanel {
     
