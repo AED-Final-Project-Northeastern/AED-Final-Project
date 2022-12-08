@@ -25,6 +25,8 @@ public class WorkRequest {
         requestDate = new Date();
     }
 
+    // Getters and Setters:
+
     public String getMessage() {
         return message;
     }
