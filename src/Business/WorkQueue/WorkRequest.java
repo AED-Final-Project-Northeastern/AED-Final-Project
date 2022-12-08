@@ -19,7 +19,8 @@ public class WorkRequest {
     private String status;
     private Date requestDate;
     private Date resolveDate;
-    
+
+    // Work Request constructor:
     public WorkRequest(){
         requestDate = new Date();
     }
