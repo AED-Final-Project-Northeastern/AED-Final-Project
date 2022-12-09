@@ -40,6 +40,7 @@ public class EcoSystem extends Organization{
     private EcoSystem(){
         super(null);
         networkList=new ArrayList<Network>();
+        System.out.println("test");
     }
 
     public ArrayList<Network> getNetworkList() {
