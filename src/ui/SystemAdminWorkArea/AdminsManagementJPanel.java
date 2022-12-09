@@ -377,7 +377,7 @@ public class AdminsManagementJPanel extends javax.swing.JPanel {
         txtUserName.setText("");
         txtPassword.setText("");
         txtName.setText("");
-        
+        //add admins into the list and system
         
         
     }//GEN-LAST:event_btnAddActionPerformed

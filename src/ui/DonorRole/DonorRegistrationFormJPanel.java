@@ -84,8 +84,7 @@ public class DonorRegistrationFormJPanel extends javax.swing.JPanel {
         
         for (int i = 0; i<len; i++)
             { 
-            // Use of charAt() method : to get character value 
-            // Use of nextInt() as it is scanning the value as int 
+             
             otp[i] = 
              numbers.charAt(rndm_method.nextInt(numbers.length())); 
         } 
@@ -602,16 +601,16 @@ int f = 0;
         }
         
 
-//       if(contactNumber == null || contactNumber.equals("")){
-//                JOptionPane.showMessageDialog(null, "Please enter Contact Number");
-//                return;
-//            }
-//             else{
-//                 if(!contactNumber.matches("/^(\\+\\d{1,3}[- ]?)?\\d{10}$/")){
-//                     JOptionPane.showMessageDialog(null, "Please enter valid Contact Number");
-//                     return;
-//                 }
-//             }
+      if(contactNumber == null || contactNumber.equals("")){
+                JOptionPane.showMessageDialog(null, "Please enter Contact Number");
+                return;
+            }
+             else{
+                 if(!contactNumber.matches("/^(\\+\\d{1,3}[- ]?)?\\d{10}$/")){
+                     JOptionPane.showMessageDialog(null, "Please enter valid Contact Number");
+                     return;
+                 }
+             }
 
         if (usernamePatternCorrect(emailAdd)) {
             f++;
