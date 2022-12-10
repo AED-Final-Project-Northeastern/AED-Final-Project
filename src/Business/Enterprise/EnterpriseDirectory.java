@@ -5,7 +5,6 @@
  */
 package Business.Enterprise;
 
-import Business.Organization.OrganizationDirectory;
 import java.util.ArrayList;
 
 /**
@@ -13,7 +12,7 @@ import java.util.ArrayList;
  * @author vidyavathipuli
  */
 public class EnterpriseDirectory {
-    private ArrayList<Enterprise> enterpriseList;
+     private ArrayList<Enterprise> enterpriseList;
    
 
     public ArrayList<Enterprise> getEnterpriseList() {
@@ -28,26 +27,21 @@ public class EnterpriseDirectory {
         enterpriseList=new ArrayList<Enterprise>();
     }
     
-    //Create enterprise
-    public Enterprise AddEnterprise(String name,Enterprise.EnterpriseType type){
+      //Create enterprise
+    public Enterprise createAndAddEnterprise(String name,Enterprise.EnterpriseType type){
         Enterprise enterprise=null;
-        
-        if(type==Enterprise.EnterpriseType.SuperMarket){
-            enterprise=new SuperMarketEnterprise(name);
+        if(type==Enterprise.EnterpriseType.Hospital){
+            enterprise=new Hospital(name);
             enterpriseList.add(enterprise);
-        }else if(type==Enterprise.EnterpriseType.Distributor){
-            enterprise=new DistributorEnterprise(name);
-            enterpriseList.add(enterprise);
-        }else if(type==Enterprise.EnterpriseType.Supplier){
-            enterprise=new SupplierEnterprise(name);
-            enterpriseList.add(enterprise);
-        }else if(type==Enterprise.EnterpriseType.Orphanage){
-            enterprise=new OrphanageEnterprise(name);
-            enterpriseList.add(enterprise);
-        }else if(type==Enterprise.EnterpriseType.Customer){
-            enterprise=new CustomerEnterprise(name);
-            enterpriseList.add(enterprise);
-            
+        }else if (type==Enterprise.EnterpriseType.OrganBank){
+            enterprise = new OrganBank(name);
+            enterpriseList.add(enterprise);    
+        }else if(type==Enterprise.EnterpriseType.Government){
+            enterprise = new PublicHealth(name);
+            enterpriseList.add(enterprise);    
+        }else if(type==Enterprise.EnterpriseType.Therapy){
+            enterprise = new Treatment(name);
+            enterpriseList.add(enterprise);    
         }
         return enterprise;
     }
