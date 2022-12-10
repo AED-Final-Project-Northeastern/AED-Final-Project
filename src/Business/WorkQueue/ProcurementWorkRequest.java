@@ -20,33 +20,33 @@ public class ProcurementWorkRequest extends WorkRequest{
 
 
     //Getters and Setters:
-    public ArrayList<String> getOrganList() {
-        return organList;
-    }
-
-    public void setOrganList(ArrayList<String> organList) {
-        this.organList = organList;
-    }
-
-    public void setPatientAccount(Patient patAccount) {
-        patient=patAccount;
-   }
-
-    public Patient getPatient() {
-        return patient;
-    }
-
-    public String getTeam() {
-        return team;
-    }
-
-    public void setTeam(String team) {
-        this.team = team;
-    }
-
-    @Override
-    public String toString() {
-        return getPatient()+"";
-    }
+//    public ArrayList<String> getOrganList() {
+//        return organList;
+//    }
+//
+//    public void setOrganList(ArrayList<String> organList) {
+//        this.organList = organList;
+//    }
+//
+//    public void setPatientAccount(Patient patAccount) {
+//        patient=patAccount;
+//   }
+//
+//    public Patient getPatient() {
+//        return patient;
+//    }
+//
+//    public String getTeam() {
+//        return team;
+//    }
+//
+//    public void setTeam(String team) {
+//        this.team = team;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return getPatient()+"";
+//    }
     
 }
