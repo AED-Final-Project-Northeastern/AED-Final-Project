@@ -36,10 +36,10 @@ public class EnterpriseDirectory {
         }else if (type==Enterprise.EnterpriseType.OrganBank){
             enterprise = new OrganBank(name);
             enterpriseList.add(enterprise);    
-        }else if(type==Enterprise.EnterpriseType.Government){
+        }else if(type==Enterprise.EnterpriseType.PublicHealth){
             enterprise = new PublicHealth(name);
             enterpriseList.add(enterprise);    
-        }else if(type==Enterprise.EnterpriseType.Therapy){
+        }else if(type==Enterprise.EnterpriseType.Treatment){
             enterprise = new Treatment(name);
             enterpriseList.add(enterprise);    
         }
