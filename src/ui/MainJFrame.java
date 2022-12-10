@@ -23,7 +23,7 @@ import ui.DonorRole.DonorRegistrationFormJPanel;
 
 /**
  *
-* @author saikr
+* @author shiva
 
  */
 public class MainJFrame extends javax.swing.JFrame {
