@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author bhavana
+ * @author shiva
  */
 public class Patient {
     private int id;
