@@ -13,6 +13,7 @@ import java.util.Date;
  * @author Kabir
  */
 public class WorkRequest {
+    //Variables: 
     private String message;
     private UserAccount sender;
     private UserAccount receiver;
