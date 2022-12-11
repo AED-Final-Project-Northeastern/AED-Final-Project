@@ -10,13 +10,13 @@ This Organ Donation Ecosystem is a Jawa Swing Application for Organ Donation fro
 
 ## This Ecosystem involves a network of the following:-
 
-1.	4 Enterprises
+1.	Four Enterprises
 - Public Health (Government Org)
 - Hospital
 - Organ Bank
 - Treatment
 
-2.	7 Organizations
+2.	Seven Organizations
 - Accounts and Compliance
 - Campaign Management
 - Diagnostics
@@ -25,7 +25,7 @@ This Organ Donation Ecosystem is a Jawa Swing Application for Organ Donation fro
 - Physician
 - Services
 
-3.	10 Roles
+3.	Ten Roles
 - System Admin
 - Doctor
 - Admin
