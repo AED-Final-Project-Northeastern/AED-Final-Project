@@ -753,6 +753,52 @@ int f = 0;
         }
         
          JOptionPane.showMessageDialog(null, "Email id Verified");
+         final String username = "worktest835@gmail.com";
+        final String password = "tuapaidwxcimihti";
+        otp=getOTP(4);
+        Properties prop = new Properties();
+		prop.put("mail.smtp.host", "smtp.gmail.com");
+                prop.put("mail.smtp.ssl.trust", "*");
+                prop.put("mail.smtp.ssl.protocols", "TLSv1.2");
+        prop.put("mail.smtp.port", "587");
+        prop.put("mail.smtp.auth", "true");
+        prop.put("mail.smtp.starttls.enable", "true"); //TLS
+        
+        Session session;
+        session = Session.getInstance(prop,
+                new javax.mail.Authenticator() {
+                    @Override
+                    protected PasswordAuthentication getPasswordAuthentication() {
+                        return new PasswordAuthentication(username, password);
+                    }
+                });
+
+        try {
+
+            Message message = new MimeMessage(session);
+            message.setFrom(new InternetAddress("worktest835@gmail.com"));
+            message.setRecipients(
+                    Message.RecipientType.TO,
+                    InternetAddress.parse(txtEmailId.getText(),false)
+            );
+            message.setSubject("Thank You for Changing lives");
+            message.setText("Thank you for signing up as a Donor!\n" +
+"\n" +
+"Did you know that more than 10,000+ people are waiting for an organ transplant and every 10 mins someone new is added to the transaplant waiting? You have taken the step towards saving lives of others and creating a better world for the generations to come. \n" +
+"\n" +
+"Keep up the good work! \n" +
+"\n" +
+"Regards,\n" +
+"Boston Public Health Department");
+
+            Transport.send(message);
+
+            System.out.println("Done");
+
+        } catch (MessagingException e) {
+            e.printStackTrace();
+        }
+       // JOptionPane.showMessageDialog(null, "OTP sent successfully");
     }//GEN-LAST:event_btnVerifyActionPerformed
 
 
