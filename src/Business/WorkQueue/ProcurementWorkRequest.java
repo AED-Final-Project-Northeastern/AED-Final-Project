@@ -14,9 +14,9 @@ import java.util.ArrayList;
  */
 public class ProcurementWorkRequest extends WorkRequest{
     //Patient object:
-//    Patient patient;
-//    String team;
-//    private ArrayList<String> organList=new ArrayList<>();
+    Patient patient;
+    String team;
+    private ArrayList<String> organList=new ArrayList<>();
 
 
     //Getters and Setters:
